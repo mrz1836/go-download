@@ -63,3 +63,17 @@ func TestDownloadAllFiles(t *testing.T) {
 		t.Fatal("failed in downloading all files: ", err.Error())
 	}
 }
+
+//BenchmarkCreateDefaultDirectory benchmarks the createDefaultDirectory method
+func BenchmarkCreateDefaultDirectory(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = createDefaultDirectory()
+	}
+}
+
+//BenchmarkParseFromFile benchmarks the parseFromFile method
+func BenchmarkParseFromFile(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_, _ = parseFromFile("example.json")
+	}
+}
