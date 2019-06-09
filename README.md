@@ -27,7 +27,7 @@ $ go get -u github.com/mrz1836/go-download
 You can view the generated [documentation here](https://godoc.org/github.com/mrz1836/go-download).
 
 ## Examples & Tests
-All unit tests run via [Travis CI](https://travis-ci.com/mrz1836/go-download) and uses [Go version 1.11.x](https://golang.org/doc/go1.11). View the [deployment configuration file](https://github.com/mrz1836/go-download/blob/master/.travis.yml).
+All unit tests run via [Travis CI](https://travis-ci.com/mrz1836/go-download) and uses [Go version 1.12.x](https://golang.org/doc/go1.12). View the [deployment configuration file](https://github.com/mrz1836/go-download/blob/master/.travis.yml).
 ```bash
 $ cd ../go-download
 $ go test ./... -v
@@ -66,7 +66,7 @@ View the [contributing guidelines](https://github.com/mrz1836/go-download/blob/m
 
 Support the development of this project 🙏
 
-[![Donate](https://img.shields.io/badge/donate-bitcoin%20cash-brightgreen.svg)](https://mrz1818.com/?tab=tips&af=go-download)
+[![Donate](https://img.shields.io/badge/donate-bitcoin-brightgreen.svg)](https://mrz1818.com/?tab=tips&af=go-download)
 
 ## License
 
