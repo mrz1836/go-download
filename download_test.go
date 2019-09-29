@@ -28,7 +28,7 @@ func TestParseFromFile(t *testing.T) {
 	if err != nil {
 		t.Fatal("error should have  not occurred", err.Error())
 	} else if len(files) == 0 {
-		t.Fatal("no files found, there should be atleast 1")
+		t.Fatal("no files found, there should be at least 1")
 	}
 
 	//Test the data
@@ -54,7 +54,7 @@ func TestDownloadAllFiles(t *testing.T) {
 	if err != nil {
 		t.Fatal("error should have  not occurred", err.Error())
 	} else if len(files) == 0 {
-		t.Fatal("no files found, there should be atleast 1")
+		t.Fatal("no files found, there should be at least 1")
 	}
 
 	//Download all the files
